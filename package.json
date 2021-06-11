@@ -1,0 +1,22 @@
+{
+  "name": "test-cafe-example",
+  "version": "1.0.0",
+  "description": "example project",
+  "main": "index.js",
+  "scripts": {
+    "test-safari": "testcafe safari ./tests demo.ts -s takeOnFails=true",
+    "testcafe": "testcafe chrome ./tests demo.ts -s takeOnFails=true",
+    "test-chrome": "testcafe chrome ./tests -s takeOnFails=true"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amadamombe/test-cafe-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amadamombe/test-cafe-example/issues"
+  },
+  "homepage": "https://github.com/amadamombe/test-cafe-example#readme"
+}
